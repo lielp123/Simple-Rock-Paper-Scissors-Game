@@ -1,0 +1,98 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #A5BFCC;
+}
+
+#title
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#mainDiv
+{
+   position: absolute;
+   width: 750px;
+   height: 750px;
+   background-color: #4c585B; 
+   border-radius: 25px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   box-shadow: 0 0 10px black;
+   box-shadow: 0 0 10px black;
+}
+
+#secondDiv
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    top: 100px;
+}
+
+#thirdDiv
+{   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+    width: fit-content;
+    height: fit-content;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.btn
+{
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    transform: scale(1.1);
+}
+
+.rock
+{
+    background-color: #66ed83;
+}
+.paper
+{
+    background-color: #da7be8;
+}
+.scissors
+{
+    background-color: #faf25f;
+}
+
+#resultDiv
+{
+    width: fit-content;
+    height: 50px;
+    position: fixed;
+    bottom: 8%;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    font-size: 50px;
+}
